@@ -3,7 +3,7 @@
 This is a web service that helps you find medications based on type and strength, and also provides health tips based on symptoms.
 
 ## Deployment URL
-[https://your-app.onrender.com](https://your-app.onrender.com)
+https://health-assistant-o4oq.onrender.com
 
 ## Routes
 ### 1. Root Route (`/`)
