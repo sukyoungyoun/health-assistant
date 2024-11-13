@@ -34,15 +34,15 @@ You can access the service here:
 - **Response:** A JSON array containing all medications:
   ```json
   [
-      { id: 0, name: "Ibuprofen", type: "pain", strength: "1"},
-    { id: 1, name: "Acetaminophen", type: "pain", strength: "1"},
-    { id: 2, name: "Morphine", type: "pain", strength: "5"},
-    { id: 3, name: "Zyrtec", type: "allergy", strength: "1"},
-    { id: 4, name: "Allegra", type: "allergy", strength: "1"},
-    { id: 5, name: "Xyzal", type: "allergy", strength: "4"},
-    { id: 6, name: "Peptobismol", type: "digestive", strength: "1"},
-    { id: 7, name: "Tums", type: "digestive", strength: "1"},
-    { id: 8, name: "Gaviscon", type: "digestive", strength: "3"},
+      { "id": 0, "name": "Ibuprofen", "type": "pain", "strength": "1" },
+      { "id": 1, "name": "Acetaminophen", "type": "pain", "strength": "1" },
+      { "id": 2, "name": "Morphine", "type": "pain", "strength": "5" },
+      { "id": 3, "name": "Zyrtec", "type": "allergy", "strength": "1" },
+      { "id": 4, "name": "Allegra", "type": "allergy", "strength": "1" },
+      { "id": 5, "name": "Xyzal", "type": "allergy", "strength": "4" },
+      { "id": 6, "name": "Peptobismol", "type": "digestive", "strength": "1" },
+      { "id": 7, "name": "Tums", "type": "digestive", "strength": "1" },
+      { "id": 8, "name": "Gaviscon", "type": "digestive", "strength": "3" }
   ]
 
 ### 4. Medication by Type and Strength (`/medication/:type/:strength`)
